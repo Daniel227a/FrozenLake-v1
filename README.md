@@ -18,3 +18,10 @@ The action shape is (1,) in the range {0, 3} indicating which direction to move 
 3: Move up
 
 https://gymnasium.farama.org/environments/toy_text/frozen_lake/#frozen-lake
+
+
+The Bellman equation
+
+V(s) = \max_a \left( \sum_{s',r} p(s',r|s,a) \left[ r + \gamma V(s') \right] \right)
+
+
