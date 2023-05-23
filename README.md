@@ -24,4 +24,7 @@ The Bellman equation
 $$V(s) = \max_a \left( \sum_{s',r} p(s',r|s,a) \left[ r + \gamma V(s') \right] \right)$$
 
 
+https://aleksandarhaber.com/policy-iteration-algorithm-in-python-and-tests-with-frozen-lake-openai-gym-environment-reinforcement-learning-tutorial/
+
+
 
